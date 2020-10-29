@@ -21,7 +21,7 @@ if(empty($password)){
     $hasPasswordError = true;
 }
 if(strlen($password)<8){
-    $passwordError .= "Email must be at least 8 characters!<br>";
+    $passwordError .= "Password must be at least 8 characters!<br>";
     $hasPasswordError = true;
 }
 ?>
